@@ -1,0 +1,38 @@
+body {
+  font-size: 15px;
+  font-family: Poppins, sans-serif;
+}
+
+.conteiner {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tittle {
+  font-weight: 200;
+  line-height: 2px;
+  margin-top: 50px;
+}
+
+.subtittle {
+  font-weight: 400;
+}
+
+.txt {
+  font-weight: 200;
+  line-height: 2px;
+}
+
+.feature {
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attributtion a {
+  color: hsl(228, 45%, 44%);;
+}

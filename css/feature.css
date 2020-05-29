@@ -1,0 +1,50 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 55vh;
+  position: relative;
+}
+
+.feature {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba( 0, 0, 0, 0.2);
+  position: absolute;
+  width: 300px;
+  height: 200px;
+}
+
+.feature h2, p {
+  margin: 15px;
+}
+
+.card-team {
+  border-top: 2px solid #ea5353;
+  position: static;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.card-karma {
+  border-top: 2px solid #fcaf4a;
+  position: static;
+  align-self: center;
+}
+
+.card-calc {
+  border-top: 2px solid #549ef2;
+  align-self: flex-end;
+  margin-right: 180px;
+}
+
+.card-super {
+  border-top: 2px solid #45d3d3;
+  margin-left: 180px;
+}
+
+svg {
+  margin-left: 200px;
+}
